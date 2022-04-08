@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - function starts
+ * main - Function starts
  *
- * Return: function closes
+ * Return: Function closes
  */
 
 int main(void)
 { 
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("Programming is like building a multilingual puzzle \n",);
 	return (0);
 }
