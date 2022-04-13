@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet_*10 - print alphabet
+ * print_alphabet_x10 - print alphabet
  *
  * Return: Always 0.
  */
 
-void print_alphabet_*10(void)
+void print_alphabet_x10(void)
 {
 	char c;
 	int i = 0;
