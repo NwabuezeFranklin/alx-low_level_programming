@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Print - abeg
- * Return: void
+ * print_alphabet_*10 - print alphabet
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet_*10(void)
