@@ -1,27 +1,30 @@
 #include <stdio.h>
+
 /**
- * main - main block
- *
- * Return: 0
+ * main - something
+ * Return: something
  */
 int main(void)
 {
-	int i = 0;
-	long int a = 0, b = 1, next;
+	long int i, j, k, l;
 
-	while (i < 50)
-	{
-		next = a + b;
-		a = b;
-		b = next;
-		printf("%lu", next);
-	}
-	if (i < 49)
-	{
-		printf(", ");
-	}
-	i++;
+	j = 1;
 
-	putchar('\n');
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
+	{
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
+		}
+		l = j + k;
+		j = k;
+		k = l;
+	}
+
 	return (0);
 }
