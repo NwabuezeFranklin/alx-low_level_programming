@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_strncat - 
- *@dest: A pointer
- *@src: A pointer 
+ *_strncat - concatenates two strings
+ *@dest: A pointer to a character that will be changed
+ *@src: A pointer to a character that will be changed
  *@n: value
  *Return: dest
  */
