@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - beg
- *
- * Return: stop
+ * main - the containing func
+ * Return: 0 if succesful
  */
 int main(void)
 {
